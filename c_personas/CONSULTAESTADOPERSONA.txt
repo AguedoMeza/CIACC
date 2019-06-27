@@ -1,0 +1,4 @@
+select p.nombre, e.estado, m.municipio
+from personas as p
+inner join estados as e on e.id_estado=p.estado
+INNER JOIN municipios AS m ON m.id_municipio = p.municipio
